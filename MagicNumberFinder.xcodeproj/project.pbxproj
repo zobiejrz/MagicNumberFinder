@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AFA70A1D2E81DBCF00C299E4 /* zBitboard in Frameworks */ = {isa = PBXBuildFile; productRef = AFA70A1C2E81DBCF00C299E4 /* zBitboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		AFE0992F2E79FFB000CE30DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA70A1D2E81DBCF00C299E4 /* zBitboard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 			);
 			name = MagicNumberFinder;
 			packageProductDependencies = (
+				AFA70A1C2E81DBCF00C299E4 /* zBitboard */,
 			);
 			productName = MagicNumberFinder;
 			productReference = AFE099312E79FFB000CE30DB /* MagicNumberFinder */;
@@ -106,6 +112,9 @@
 			);
 			mainGroup = AFE099282E79FFB000CE30DB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AFA70A1B2E81DBCF00C299E4 /* XCRemoteSwiftPackageReference "zBitboard" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AFE099322E79FFB000CE30DB /* Products */;
 			projectDirPath = "";
@@ -291,6 +300,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFA70A1B2E81DBCF00C299E4 /* XCRemoteSwiftPackageReference "zBitboard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zobiejrz/zBitboard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFA70A1C2E81DBCF00C299E4 /* zBitboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFA70A1B2E81DBCF00C299E4 /* XCRemoteSwiftPackageReference "zBitboard" */;
+			productName = zBitboard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AFE099292E79FFB000CE30DB /* Project object */;
 }
